@@ -39,7 +39,7 @@ export const App = () => {
   return (
     <>
       <div className={appSt.container}>
-        <img src={alfaOnly} width={158} height={33} className={appSt.img} />
+        <img src={alfaOnly} width={158} height={38} className={appSt.img} />
         <Typography.Text style={{ marginBottom: '1rem' }} view="primary-medium">
           Перейдите на новый уровень
         </Typography.Text>
@@ -138,7 +138,7 @@ export const App = () => {
         }}
         contentClassName={appSt.btmContent}
         actionButton={
-          <ButtonMobile block view="primary" onClick={() => setShowBs(false)}>
+          <ButtonMobile shape="rounded" block view="primary" onClick={() => setShowBs(false)}>
             Понятно
           </ButtonMobile>
         }

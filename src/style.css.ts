@@ -25,7 +25,7 @@ const box = style({
   display: 'flex',
   padding: '12px',
   flexDirection: 'column',
-  gap: '12px',
+  gap: '24px',
   borderRadius: '2rem',
   backgroundColor: '#fff',
 });
