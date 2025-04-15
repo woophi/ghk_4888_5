@@ -6,7 +6,7 @@ import { Typography } from '@alfalab/core-components/typography';
 import { useEffect, useState } from 'react';
 import alfaOnly from './assets/alfa_only.png';
 import rest_12 from './assets/rest_12.png';
-import taxi_2 from './assets/taxi_2.png';
+import taxi_2 from './assets/taxi.png';
 import toggle from './assets/toggle.png';
 import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
