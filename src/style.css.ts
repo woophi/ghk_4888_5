@@ -41,7 +41,6 @@ const img = style({
 });
 
 const switcher = style({
-  width: '100%',
   backgroundColor: '#fff',
   padding: '4px',
   borderRadius: '20px',
@@ -55,6 +54,7 @@ const switcherBtn = recipe({
     padding: '4px 8px',
     borderRadius: '20px',
     textAlign: 'center',
+    width: '112px',
   },
   variants: {
     selected: {
@@ -75,6 +75,53 @@ const containerBottom = style({
 export const btmContent = style({
   padding: 0,
 });
+
+const logo = style({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginTop: '1rem',
+  position: 'relative',
+  width: '100%',
+});
+
+const logoQ = style({
+  position: 'absolute',
+  right: '0',
+  top: '6px',
+});
+
+const swSlideCalc = style({
+  width: '100%',
+  maxWidth: '320px',
+});
+
+const pagination = recipe({
+  base: {
+    width: '8px',
+    height: '8px',
+    borderRadius: '8px',
+    backgroundColor: '#000000',
+    opacity: 0.25,
+  },
+  variants: {
+    selected: {
+      true: {
+        width: '32px',
+        opacity: 1,
+      },
+    },
+  },
+});
+
+const paginations = style({
+  display: 'flex',
+  gap: '8px',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: '8px',
+});
+
 export const appSt = {
   bottomBtn,
   container,
@@ -86,4 +133,9 @@ export const appSt = {
   btmContent,
   containerBottom,
   btn,
+  logo,
+  logoQ,
+  swSlideCalc,
+  paginations,
+  pagination,
 };
