@@ -83,7 +83,7 @@ export const App = () => {
       carousel: dataAnalytics[activeSlide],
       subscription: selected === 'На 1 месяц' ? 'month' : 'year',
     }).then(() => {
-      // LS.setItem(LSKeys.ShowThx, true);
+      LS.setItem(LSKeys.ShowThx, true);
       setThx(true);
       setLoading(false);
     });
